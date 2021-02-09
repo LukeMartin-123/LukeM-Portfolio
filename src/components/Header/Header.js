@@ -31,11 +31,7 @@ function Header() {
           <li className="nav-item">
             <Link
               to="/contact"
-              className={
-                window.location.pathname === "/contact" || window.location.pathname === "/contact"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
+              className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </Link>
