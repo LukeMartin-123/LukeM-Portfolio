@@ -9,8 +9,7 @@ function Header() {
                 This is the header
             </h1>
             
-            
-            
+
             </nav>
 
 

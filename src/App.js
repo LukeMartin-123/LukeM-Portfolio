@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Wrapper from "./components/Wrapper/Wrapper";
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>React Portfolio</h1 >
+      <Wrapper>
+      </Wrapper>
+      <Footer />
     </div>
   );
 }
