@@ -1,0 +1,26 @@
+.row {
+    max-width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.intro {
+    display: block; 
+    font-size: 5vw;
+    margin-top: 5%;
+ }
+
+.intro-line2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 4vw;
+    font-weight: 200;
+ }
+
+.headshot {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin: auto;
+  }

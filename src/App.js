@@ -6,10 +6,11 @@ import Skills from "./pages/Skills";
 import About from "./pages/About";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Wrapper from "./components/Wrapper/Wrapper";
+import headshot from "./assets/photos/headshot.jpg";
 import Row from "./components/Row/Row.js";
 import Col from "./components/Col/Col.js";
 import Container from "./components/Container/Container.js";
+import "./app.css"
 
 
 function App() {
@@ -23,12 +24,14 @@ function App() {
         <Route exact path="/skills" component={Skills} />
         <Container style={{ marginTop: 30 }}>
           <Row>
-            <Col size="md-12">
-            <p>This is a p tag</p>
-            </Col>
+          
           </Row>
           <Row>
-
+          <img src= {headshot} alt="Headshot" class="headshot" />
+            <Col size="md-12">
+            <h1 class="intro">Aspiring Web Developer</h1>
+            <h1 class="intro-line2"> Former Advertising Account Supervisor</h1>
+            </Col>
           </Row>
         </Container>
         <Footer />
