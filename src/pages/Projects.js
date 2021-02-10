@@ -13,24 +13,36 @@ const Projects = () => {
             <div>
                 <Row>
                     <Col size="md-4 m-auto">
-                        <Card />
+                        <Card 
+                        id={1}
+                        />
                     </Col>
                     <Col size="md-4">
-                        <h1>Project Card</h1>
+                    <Card 
+                        id={2}
+                        />
                     </Col>
                     <Col size="md-4">
-                        <h1>Project Card</h1>
+                    <Card 
+                        id={3}
+                        />
                     </Col>
                 </Row>
                 <Row>
                     <Col size="md-4">
-                        <h1>Project Card</h1>
+                    <Card 
+                        id={4}
+                        />
                     </Col>
                     <Col size="md-4">
-                        <h1>Project Card</h1>
+                    <Card 
+                        id={5}
+                        />
                     </Col>
                     <Col size="md-4">
-                        <h1>Project Card</h1>
+                    <Card 
+                        id={5}
+                        />
                     </Col>
                 </Row>
                 <Footer />
