@@ -47,6 +47,20 @@ const Card = (props) => {
       description: "This assignment is a node.js application that creates a custom HTML page based on user input. The user is prompted with a series of questions within the terminal and based on their inputs the application will then create a customized HTML page.",
       link: "https://github.com/LukeMartin-123/Team_Profile_Generator"
     },
+    {
+    id: 7,
+    title: "Web Development",
+    description: "Aspiring web developer skilled in Javascript/Jquery, React, node.js, express, MySQL, MongoDB, Github, HTML, CSS/Bootstrap ",
+    link: "https://github.com/LukeMartin-123"
+  },
+
+  {
+    id: 8,
+    title: "Account Management",
+    description: "I have 5 years of experience working in advertising account management within multiple creative agencies. Serving as the day to day client contact, working cohesively with designers, writers, strategists, and clients on integrated advertising campaigns. Experience managing large creatie and production budgets. Timeline management and KPI tracking and reporting ",
+    link: "https://www.linkedin.com/in/luke-martin-profile/"
+  },
+
   ])
 
 
