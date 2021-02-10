@@ -55,7 +55,7 @@ const Card = (props) => {
       {projects
         .filter((project) => project.id === props.id)
         .map((project) => (
-          <div key={project.id}>
+          <div class = "card" key={project.id}>
             <h1> {project.title}</h1>
             <p> {project.description}</p>
             <a href={project.link}>Link</a>
