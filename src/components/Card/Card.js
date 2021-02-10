@@ -7,6 +7,7 @@ function Card(props) {
     return (    
         <div className="ProjectCard"
         >
+          
         <CardBtn
           onClick={props.handleBtnClick}
         />
