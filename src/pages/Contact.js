@@ -7,15 +7,20 @@ import Container from "../components/Container/Container.js";
 import "./contact.css"
 
 function Contact() {
-    return (
-      <Router>
-        <div className= "container">
-          <Container style={{ marginTop: 30, }}>
+  return (
+    <Router>
 
-        <h1>Email: Ljmart02@gmail.com</h1>
-        <h1>Phone Number: 610-223-7880</h1>
+      <div className="container">
+        <Container style={{ marginTop: 30, }}>
+          <Row>
+            <Col style={{ marginBottom: 30, }}size="md-12 sm-12">
+              <h1>Please feel free to reach out to be via the below information:</h1>
+              <h3><strong>Email:</strong> Ljmart02@gmail.com</h3>
+              <h3><strong>Phone Number: </strong>610-223-7880</h3>
+              </Col>
+              </Row>
           </Container>
-          <Footer />
+            <Footer />
         </div>
       </Router>
     );
