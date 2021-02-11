@@ -1,7 +1,6 @@
 .card {
-    border: 20px solid;
+    border: 3px solid;
     margin: 10px;
     min-height: 350px;
     height: auto;
   }
-  
