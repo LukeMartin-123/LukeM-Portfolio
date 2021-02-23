@@ -20,33 +20,35 @@ const Card = (props) => {
       link: "https://lukemartin-123.github.io/Anime-vs-UFC/"
     },
 
+
     {
       id: 3,
+      title: "Fridge For All",
+      description: "This is a react project that aims to help community fridges track their inventory. Users can log into the site and can adjust the inventory for a community fridge based on what they donated or took from the fridge.",
+      link: "https://fridge-for-all-philadelphia.herokuapp.com/"
+    },
+
+    {
+      id: 4,
       title: "API Weather Tracker",
       description: "This app utilizes the Open Weather API to give live real time weather updates for any city the user inputs.The data returned includes temperature, humidity, wind, UV index and even a five day forecast.",
       link: "https://lukemartin-123.github.io/API_Weather_Tracker/"
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Javascript Code Quiz",
       description: "The goal for this project was to create a quiz that asks the user a series of questions about Javascript! After completing the quiz the user can input their initials and high scores are shown on a separate page.",
       link: "https://lukemartin-123.github.io/Javascript_Code_Quiz/"
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Employee Directory",
       description: "The goal of this project was to create a react app that utilized the 'Random User API' and allowed the user to search through a list of employees when they came to the page",
       link: "https://lukemartin-123.github.io/Employee-Directory/"
     },
 
-    {
-      id: 6,
-      title: "Team Profile Generator",
-      description: "This assignment is a node.js application that creates a custom HTML page based on user input. The user is prompted with a series of questions within the terminal and based on their inputs the application will then create a customized HTML page.",
-      link: "https://github.com/LukeMartin-123/Team_Profile_Generator"
-    },
     {
     id: 7,
     title: "Web Development",
@@ -57,11 +59,12 @@ const Card = (props) => {
   {
     id: 8,
     title: "Account Management",
-    description: "I have 5 years of experience working in advertising account management within multiple creative agencies. Serving as the day to day client contact, working cohesively with designers, writers, strategists, and clients on integrated advertising campaigns. Experience managing large creatie and production budgets. Timeline management and KPI tracking and reporting ",
+    description: "I have 5 years of experience working in advertising account management within multiple creative agencies. Serving as the day to day client contact, working cohesively with designers, writers, strategists, and clients on integrated advertising campaigns.",
     link: "https://www.linkedin.com/in/luke-martin-profile/"
   },
 
   ])
+  
 
 
   return (
@@ -72,7 +75,11 @@ const Card = (props) => {
           <div class = "card" key={project.id}>
             <h1> {project.title}</h1>
             <p> {project.description}</p>
-            <a href={project.link}>Link</a>
+            <button 
+            type="submit" 
+            className="btn" 
+            onClick={()=> window.open(project.link, "_blank")}>Link
+            </button>
           </div>
         ))}
     </div>
