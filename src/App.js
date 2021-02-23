@@ -6,13 +6,17 @@ import Skills from "./pages/Skills";
 import About from "./pages/About";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import background from "./assets/photos/skulls.png"
 
 
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{ 
+        backgroundImage: `url(${background})`,
+        width: "auto",
+        height: "1000px" }}>
         <Header />
         <Route exact path="/react-portfolio/" component={About} />
         <Route exact path="/" component={About} />

@@ -15,8 +15,8 @@ function Contact() {
           <Row>
             <Col style={{ marginBottom: 30, }}size="md-12 sm-12">
               <h1>Please feel free to reach out to be via the below information:</h1>
-              <h3><strong>Email:</strong> Ljmart02@gmail.com</h3>
-              <h3><strong>Phone Number: </strong>610-223-7880</h3>
+              <h3 className = "email"><strong>Email:</strong> Ljmart02@gmail.com</h3>
+              <h3 className = "phone"><strong>Phone Number: </strong>610-223-7880</h3>
               </Col>
               </Row>
           </Container>

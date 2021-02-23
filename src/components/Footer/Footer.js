@@ -3,7 +3,6 @@ import "./styles.css";
 
 var style = {
     backgroundColor: "#292b2c",
-    borderTop: "1px solid #E7E7E7",
     textAlign: "center",
     padding: "20px",
     position: "fixed",

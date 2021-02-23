@@ -52,14 +52,14 @@ const Card = (props) => {
     {
     id: 7,
     title: "Web Development",
-    description: "Aspiring web developer skilled in Javascript/Jquery, React, node.js, express, MySQL, MongoDB, Github, HTML, CSS/Bootstrap ",
+    description: "Aspiring web developer skilled in Javascript/Jquery, React, node.js, express, MySQL, MongoDB, Github, HTML, CSS/Bootstrap. Please find my Github Profile below for a more in depth look at my projects.",
     link: "https://github.com/LukeMartin-123"
   },
 
   {
     id: 8,
     title: "Account Management",
-    description: "I have 5 years of experience working in advertising account management within multiple creative agencies. Serving as the day to day client contact, working cohesively with designers, writers, strategists, and clients on integrated advertising campaigns.",
+    description: "I have 5 years of experience working in advertising account management within multiple creative agencies. Serving as the day to day client contact, working cohesively with designers, writers, strategists, and clients on integrated advertising campaigns. Please find my LinkedIn Profile below to check out even more of my prior experience.",
     link: "https://www.linkedin.com/in/luke-martin-profile/"
   },
 
@@ -72,14 +72,18 @@ const Card = (props) => {
       {projects
         .filter((project) => project.id === props.id)
         .map((project) => (
-          <div class = "card" key={project.id}>
-            <h1> {project.title}</h1>
-            <p> {project.description}</p>
-            <button 
-            type="submit" 
-            className="btn" 
-            onClick={()=> window.open(project.link, "_blank")}>Link
-            </button>
+          <div class = "card" 
+          style={{ 
+            backgroundColor: "#EAEAE1",}}
+          key={project.id}>
+          <h1> {project.title}</h1>
+          <p> {project.description}</p>
+          <button 
+          type="submit" 
+          className="btn" 
+          onClick={()=> window.open(project.link, "_blank")}>Link
+          </button>
+
           </div>
         ))}
     </div>
